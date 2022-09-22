@@ -1,0 +1,22 @@
+.nav{
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   align-items: center;
+
+
+   &__ul {
+      display: flex;
+      width: 40%;
+      list-style-type: none;
+      justify-content: space-between;
+
+
+      &--list {
+         text-transform: uppercase;
+         &-link {
+            text-decoration: none;
+         }
+      }
+   }
+}
